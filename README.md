@@ -4,7 +4,7 @@ Flying Drones Group 14
 
 To download the embeddings -> https://drive.google.com/file/d/1HH02VISv9v5VGXevabLT6RZK5bRnXjZF/view?usp=drive_link
 
---- DEADLINE: Monday, November 26th ---
+--- DEADLINE: Friday, November 26th ---
 
 **Step 1** -> Satine 
 - describe the field

@@ -1,0 +1,10 @@
+# Large raw datasets & embeddings (>100 MB GitHub limit)
+flying_drones_baseline_prod.parquet
+flying_drones_embeddings.npy
+*.npy
+*.npz
+
+# Jupyter checkpoints & OS clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

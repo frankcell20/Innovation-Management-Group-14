@@ -55,7 +55,7 @@ Sequential Jupyter notebooks executed on the EPO Technology Intelligence Platfor
   df = pd.read_parquet("data/flying_drones_stage2_clean.parquet")
   ```
 * **External Large Files (Excluded via `.gitignore`):** The raw SQL baseline (`flying_drones_baseline_prod.parquet`, ~220k records) and dense embedding matrix (`flying_drones_embeddings.npy`, ~339 MB) exceed GitHub's file size limits.
-  * [Download `flying_drones_embeddings.npy` from Google Drive](https://drive.google.com/file/d/1HH02VISv9v5VGXevabLT6RZK5bRnXjZF/view?usp=drive_link)
+  * [Download `flying_drones_embeddings_final.npy` from Google Drive](https://drive.google.com/file/d/1S1HsmdiZ-A4__a6OZcK5CF5TqVoRkWOF/view?usp=drive_link)
 
 ### 3. `validation/`
 * **`drone_validation_sample_100.xlsx` (or `.csv`)**: The 100-patent manual audit sheet pre-assigned to `Member_1` through `Member_5`. Each member reviews their 20 assigned titles, abstracts, and CPC codes, filling in `is_relevant` (`1` = relevant flying drone technology, `0` = false positive) and optional `review_notes`.
